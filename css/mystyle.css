@@ -3,22 +3,22 @@
   overflow: hidden;
   background-color: green;
   border-radius: 25px;
-        border: 15px solid lightgreen;
-        margin: auto;  
-        padding: 15px;
-        text-align: center;
+  border: 15px solid lightgreen;
+  margin: auto;  
+  padding: 15px;
+  text-align: center;
 }
 
 /* Navbar links */
 #navbar a {
-  float: left;
+  float: center;
   display: block;
   color: #f2f2f2;
   font-family: 'Major Mono Display', monospace;
   font-size:35px;
     /* font-family rule copied from Google Fonts */
   text-align: center;
-  padding: 30px 70px;
+  padding: 10px 70px;
   text-decoration: none;
 }
 
@@ -28,17 +28,6 @@
   background-color: #F26791;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
 
 body {
     background-color: antiquewhite;
@@ -54,13 +43,13 @@ h1 {
 h3 {
   color: #5b8072;
     font-family: verdana;
-  text-align: left;
+  text-align: center;
   font-size: 35px;
 }
 p {
-  color: deepskyblue;
+  color: antiquewhite;
   font-family: verdana;
-    text-align: left;
+    text-align: center;
   font-size: 25px;
 }
 p2 {
@@ -69,4 +58,31 @@ p2 {
   text-align: left;
   font-size: 20px;
 }
+div.stuff {
+/*  width: 1920px;*/
+  /* height: fit-content; */
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: center;
+  border-width: 10px;
+  border-style: dotted;
+  border-color: hotpink;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+div#first {
+  background-color: #e6a062;
+}
 
+div#second {
+  background-color: #9cbf69;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
